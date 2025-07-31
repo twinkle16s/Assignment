@@ -9,5 +9,6 @@ public class A4 {
         b = rd.nextInt();
         product = a * b;
         System.out.println("Product: " + product);
+        rd.close();
   }
  }
